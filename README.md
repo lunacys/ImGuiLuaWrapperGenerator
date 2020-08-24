@@ -23,3 +23,5 @@ This application requires exactly 2 arguments: namespace name and output file lo
 ```powershell
 ./ImGuiWrapperGenerator MyNameSpace "C:/Program Files/MyProgram/ImGuiWrapper.cs"
 ```
+
+As an alternative, you can just copy the [example output file](ExampleOutput.cs) to your project and change the namespace, but keep in mind that that example was generated with `ImGuiNET version 1.75.0`.
